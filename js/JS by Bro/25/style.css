@@ -1,0 +1,51 @@
+body {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+#box {
+  width: 400px;
+  height: 150px;
+  background-color: linear-gradient(#c99c07, #c94d2b);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: 0.1s;
+}
+#box:hover {
+  transform: scale(1.1);
+}
+#label {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+#PASSWORD {
+  display: none;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
+  margin: 0 auto;
+}
+button:hover {
+  background-color: #555;
+}
+button:active {
+  background-color: #777;
+}
